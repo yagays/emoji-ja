@@ -91,13 +91,15 @@ if __name__ == '__main__':
     emoji_ja = parse_ldml_annotation(args.annotation)
     emoji_group = parse_emoji_test(args.full_emoji, translate=True)
 
-    for emoji2, short_name in metadata.flag.items():
-        if emoji2 in emoji_group:
-            d = emoji_group[emoji2]
-            d["short_name"] = short_name
-            d["keywords"] = metadata.flag_keyword
-            emoji_ja[emoji2] = emoji_group[emoji2]
+    # 国旗を追加する(REGIONAL INDICATORのペア)
+    for emoji, short_name in metadata.flag.items():
+        if emoji in emoji_group:
+            emoji_group[emoji]
+            emoji_group[emoji]["short_name"] = short_name
+            emoji_group[emoji]["keywords"] = metadata.flag_keyword
+            emoji_ja[emoji] = emoji_group[emoji]
 
+    # emoji_jaとemoji_groupをマージする
     output = {}
     for emoji, meta in emoji_ja.items():
         output[emoji] = meta
@@ -106,6 +108,7 @@ if __name__ == '__main__':
         else:
             output[emoji].update({"group": "", "subgroup": ""})
 
+    # 出力
     dump_to_json(output, "data/emoji_ja.json")
     dump_to_json(make_keyword2emoji(emoji_ja), "data/keyword2emoji_ja.json")
     dump_to_json(make_group2emoji(emoji_group), "data/group2emoji_ja.json")
