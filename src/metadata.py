@@ -13,7 +13,11 @@ group = {"Activities": "活動",
          "Objects": "物",
          "Smileys & People": "スマイリーと人々",
          "Symbols": "記号",
-         "Travel & Places": "旅行と場所"}
+         "Travel & Places": "旅行と場所",
+         'Smileys & Emotion': "スマイリーと感情", #12.0
+         'People & Body': "人と体",
+         'Component': "要素"
+         }
 
 subgroup = {"alphanum": "文字",
             "animal-amphibian": "動物 両生類",
@@ -94,7 +98,31 @@ subgroup = {"alphanum": "文字",
             "transport-water": "乗り物 水上",
             "warning": "警告",
             "writing": "筆記",
-            "zodiac": "星座"}
+            "zodiac": "星座",
+            "face-smiling": "顔 スマイル", #12.0
+            "face-affection":"顔 愛情",
+            "face-tongue":"顔 舌",
+            "face-hand":"顔 手",
+            "face-neutral-skeptical":"顔 中立的 懐疑的",
+            "face-sleepy":"顔 眠い",
+            "face-unwell":"顔 体調不良",
+            "face-hat":"顔 帽子",
+            "face-glasses":"顔 眼鏡",
+            "face-concerned":"顔 心配",
+            "face-costume":"顔 仮装",
+            "hand-fingers-open":"手 開いた指",
+            "hand-fingers-partial":"手 一部の指",
+            "hand-single-finger":"手 一本指",
+            "hand-fingers-closed":"手 閉じた指",
+            "hands":"手",
+            "hand-prop":"手 小道具",
+            "body-parts":"体の一部",
+            "person-resting":"人 休息",
+            "person-symbol":"人 シンボル",
+            "hair-style":"ヘアスタイル",
+            "food-marine":"海産物",
+            "gender":"性別"
+            }
 
 # https://unicode.org/Public/emoji/11.0/emoji-test.txt
 # https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%97%97%E3%81%AE%E4%B8%80%E8%A6%A7
