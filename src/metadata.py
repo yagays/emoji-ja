@@ -120,7 +120,7 @@ subgroup = {"alphanum": "文字",
             "person-resting":"人 休息",
             "person-symbol":"人 シンボル",
             "hair-style":"ヘアスタイル",
-            "food-marine":"海産物",
+            "food-marine":"食べ物 海産物",
             "gender":"性別"
             }
 
