@@ -26,3 +26,4 @@ data
 
 - [📙Unicode絵文字の日本語読み/キーワード/分類辞書📙 \- Out\-of\-the\-box](https://yag-ays.github.io/project/emoji-ja/)
 - [絵文字の日本語読み辞書をUnicode 12\.0対応に更新しました \- Out\-of\-the\-box](https://yag-ays.github.io/project/emoji-ja-update-12/)
+- [絵文字の日本語読み辞書をUNICODE 13\.0対応に更新しました \- Out\-of\-the\-box](https://yag-ays.github.io/project/emoji-ja-update-13/)
