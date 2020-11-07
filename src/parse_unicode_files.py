@@ -31,7 +31,7 @@ def parse_ldml_annotation(filepath):
 
 def parse_emoji_test(filepath, translate=True):
     emoji_dict = {}
-    with open(filepath) as f:
+    with open(filepath, 'r', encoding='utf-8') as f:
         group_name = ""
         subgroup_name = ""
         for line in f:
@@ -78,7 +78,7 @@ def make_group2emoji(d):
 
 
 def dump_to_json(d, filepath):
-    with open(filepath, "w") as f:
+    with open(filepath, "w", encoding='utf-8') as f:
         json.dump(d, f, ensure_ascii=False, indent=4)
 
 
