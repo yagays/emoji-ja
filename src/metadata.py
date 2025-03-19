@@ -248,7 +248,7 @@ flag = {"🇦🇨": "アセンション島",  # Ascension Island
         "🇯🇵": "日本",  # Japan
         "🇰🇪": "ケニア",  # Kenya
         "🇰🇬": "キルギス",  # Kyrgyzstan
-        "🇰🇭": "コロンビア",  # Cambodia
+        "🇰🇭": "カンボジア",  # Cambodia
         "🇰🇮": "キリバス",  # Kiribati
         "🇰🇲": "コモロ",  # Comoros
         "🇰🇳": "セントクリストファー・ネイビス",  # St. Kitts & Nevis
